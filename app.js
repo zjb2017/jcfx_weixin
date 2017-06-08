@@ -8,9 +8,6 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-var weixin = require('./routes/weixin');
-var wechat = require('./routes/wechat');
-
 var app = express();
 
 // view engine setup
